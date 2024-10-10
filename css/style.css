@@ -1,0 +1,47 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+.position{
+    background-color: black;
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.position:hover{
+    background-color: blue;
+    transition: 3s;
+}
+
+.content{
+    position: relative;
+    left: 350px;
+    padding: 20px;
+}
+
+.content, p{
+    width: 70%;
+    color: blue;
+}
+
+a{
+   background-color: blue;
+   color: white;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+
+
+
+
